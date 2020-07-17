@@ -15,9 +15,10 @@
 	1) Flash Raspbian OS image on SD card
 		- Go to https://www.raspberrypi.org/downloads/
 		- download "Raspberry Pi Imager for Windows" (https://downloads.raspberrypi.org/imager/imager.exe)
+		- download Raspberry OS (32-bit) Lite
 		- mount SD card to computer
 		- start "imager.exe"
-		- choose OS: "Raspian 32-bit"
+		- choose OS: "Raspian 32-bit Lite"
 		- choose SD previously mounted
 		- click "write"
 		- once finished, remove SD card
@@ -34,7 +35,7 @@
 		- execute the following commands:
 		    sudo rm -rf LCD-show
 		    git clone https://github.com/Lcdwiki/LCD-show.git
-		    chmod -R 755 LCD-show
+		    %chmod -R 755 LCD-show%
 		    cd LCD-show/
 		    sudo ./MHS35-show
 	5) Setup Access Point
