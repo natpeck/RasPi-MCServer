@@ -1,7 +1,7 @@
 # RasPi-MCServer
-Setting up a Raspberry Pi 3 B as a Minecraft Server from scratch
+# Setting up a Raspberry Pi 3 B as a Minecraft Server from scratch
 
-Materials:
+# Materials:
 	- Raspberry Pi 3 B
 	- USB Keyboard
 	- USB Mouse
@@ -11,7 +11,7 @@ Materials:
 	- Display & Case (MHS 3.5in Display)
 	- Micro SD card at least 8GB (using 16GB)
 	
-Setup the Pi
+# Setup the Pi
 	1)	Flash Raspbian OS image on SD card
         - Go to https://www.raspberrypi.org/downloads/
         - download "Raspberry Pi Imager for Windows" (https://downloads.raspberrypi.org/imager/imager.exe)
@@ -92,6 +92,6 @@ Setup the Pi
         sudo apt-get upgrade
 	
 				
-References:
+# References:
 	- https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
 	- https://thebetterparent.com/2019/07/how-to-set-up-a-minecraft-server-on-raspberry-pi/
